@@ -104,7 +104,7 @@ experiences:
           2019年度ブラウザアプリーー **SkyLeap** の開発に関わっており、**社長賞(チーム賞)**を受賞。    
 
           近年Cloud Serviceに興味があり、**Google Cloud PCA認定資格** を取り、クロスジョブで **Server Engineer** として部署の 
-          **GCP Projectsの管理(GCP Projectsの監視仕組みの導入)・運用改善(IaC化)・コスト削減(FinOps)** などに関わっていまして、あるProjectの **運用コストを60%削減** することができました。
+          **GCP Projectsの管理** などに関わっていまして、あるProjectの **運用コストを60%削減** することができました。
 
           開発言語: **Objective-C, Java, Kotlin, Swift, C#(Unity), C++, Terraform, Ruby, Dart, JavaScript**    
       - role: Software Engineer
@@ -133,16 +133,25 @@ projects:
     assignments:
       - title: Mobage (Android&iOS)
         link: "https://play.google.com/store/apps/details?id=jp.mbga.portal.lite"
-        time: "2022.10~現在"
+        time: "2022.10~現在(DeNA)"
         tagline: "スマホで遊べるゲームポータル「Mobage(モバゲー)」の公式アプリ"
         content: "外部環境変化への対応(新OS対応、Google/Appleのポリシー変更対応など)が主務ですが、
         近年はレガシーコードによるメンテナンスコストの増大が問題となっており、それを解決するため、
         Mobageアプリを作り直すことにしました。<strong>三人体制のグループで、技術に関する全般的な業務(技術の検証・選定、
         ビジネスロジックの洗い出し、アーキテクチャの設計、実装、テスト）をリードしていました。</strong>"
 
+      - title: Mobage Open PlatformのBackendで使用されるGCP Projectsの管理
+        time: "2022.10~現在(DeNA)"
+        tagline: "Mobage Open PlatformのBackendは、AWS, GCP, on-premisesなどがあります。
+        GCPは主に分析基盤、課金サービス、モバフェスなどのサービスに使われています。"
+        content: "<br/>IaCを推進し、環境間の一貫性を保証し、信頼性の高いインフラ構築を実現すること;<br/>
+        FinOpsを推進し、GCPのコストを削減すること;<br/>
+        <strong>GCP Projectsの監視仕組みを導入し、不適切な変更を検知し、GCP管理者として開発者にアドバイスを提供し、
+        セキュリティの向上、リスクの軽減、およびコストの最適化に貢献すること。</strong>"
+
       - title: Mobage SDKs(Android&iOS)
         link: "https://play.google.com/store/apps/details?id=jp.mbga.portal.lite"
-        time: "2018.07~現在"
+        time: "2018.07~現在(DeNA)"
         tagline: "Third-Partyゲーム向けに、Mobage Open Platformが提供する会員管理、課金、通知、
         ソーシャル機能などのサービスを利用するためのSDK群です。<br/>
         種類はNativeアプリ向けのNativeSDK、Unity向けのUnitySDK、そしてWebViewベースのShellAppFrameworkがあります。<br/>
@@ -152,7 +161,7 @@ projects:
       
       - title: SkyLeap(iOS)
         link: "https://apps.apple.com/jp/app/skyleap/id1470217541"
-        time: "2019.04~2020.04"
+        time: "2019.04~2020.04(DeNA)"
         tagline: "グラブルの推奨ブラウザアプリ"
         content: "<strong>スクラム</strong>で開発を行っています。主務は<strong>新規機能の開発、ユーザ問い合わせ対応など</strong>。
         <strong>ユーザにDelightを届けること</strong>を使命とし、自分らはゲームユーザになりきって、アプリの改善点を見つけ出し、
@@ -160,7 +169,7 @@ projects:
 
       - title: AndApp(Windows&macOS)
         link: "https://www.andapp.jp/"
-        time: "2016.06~2018.06"
+        time: "2016.06~2018.06(DeNA)"
         tagline: "スマホゲームをPCで遊ぶことができるプラットフォーム。EndUserにはGame Platformを提供しており、
         パートナー様にはAndApp会員管理、課金、通知などの機能を利用できるSDKを提供。"
         content: "主務はAndAppバックエンドServiceの開発、ゲーム向けのAndApp SDK(C++&Unity)の開発。<br/>
@@ -169,26 +178,28 @@ projects:
 
       - title: DreeVee 動画広告配信SDK(Android)
         link: "https://drecom.co.jp/news/2016/07/20160729.php"
-        time: "2015.04~2015.08"
+        time: "2015.04~2015.08(Drecom)"
         tagline: "当時ドリコムが提供している「poncan ビデオアド」からリニューアルした、動画広告ネットワークサービス。"
         content: "動画広告配信SDKのAndroid版の開発を担当していました。REST APIから動画URLを取得し、それを再生し
         最後リワード画面に遷移するという機能を実装しまして、MediaPlayer API関連を頑張ってました。
         読み込み速度改善するために、通信量を気にしつづ、動画コンテンツの先読みに工夫をしました。"
+      
+      - title: 
 
       - title: Docomo電話帳 (Android)
         link: "https://www.docomo.ne.jp/service/phonebook_cloud/"
-        time: "2014.10~2014.12"
+        time: "2014.10~2014.12(日進)"
         tagline: "ドコモが提供している連絡先を管理するアプリ"
         content: "Android5のリリースに伴うUIのリニューアル対応(Material Design)と、パフォーマンス改善を主にやってました。"
 
       - title: AU Wallet (Android)
         link: "https://aupay.auone.jp/"
-        time: "2014.06~2014.09"
+        time: "2014.06~2014.09(日進)"
         tagline: "現AU Payアプリの前身となるアプリ、現在だいぶ進化しましたが、当時の機能は主にポイントの残高管理でした。"
         content: "主務はUIの動画作りでした。生き生きとしたUI動画は、User Engagementに繋がることを学びました。"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills & Proficiency
 
     toolset:
       - name: Android(Java, Kotlin)
