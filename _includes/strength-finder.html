@@ -1,0 +1,22 @@
+{% assign strength-finder = site.data.data.sidebar.strength-finder %}
+{% if strength-finder %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    {{ strength-finder.title }}
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for strength-finder in strength-finder.info %}
+
+      {% if strength-finder.link %}
+      <li><a href="{{ strength-finder.link }}">{{ strength-finder.item }}</a></li>
+      {% else %}
+      <li>{{ strength-finder.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//strength-finder-->
+{% endif %}

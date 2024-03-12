@@ -26,11 +26,19 @@
         {{ project.title }}
         {% endif %}
       </span>
+      <ul>
+        {% if project.time %}
+        <li><span><font size="2"><strong>期間: </strong> {{ project.time }}</font></span>
+        {% endif %}
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+        {% if project.tagline %}
+        <li><span><font size="2"><strong>概要: </strong>{{ project.tagline }}</font></span>
+        {% endif %}
 
+        {% if project.content %}
+        <li><span><font size="2"><strong>業務内容: </strong> {{ project.content }}</font></span>
+        {% endif %}
+      </ul>
     </div><!--//item-->
   {% endfor %}
 

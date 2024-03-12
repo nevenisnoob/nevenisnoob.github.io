@@ -1,0 +1,22 @@
+{% assign mbti = site.data.data.sidebar.mbti %}
+{% if mbti %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    {{ mbti.title }}
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for mbti in mbti.info %}
+
+      {% if mbti.link %}
+      <li><a href="{{ mbti.link }}">{{ mbti.item }}</a></li>
+      {% else %}
+      <li>{{ mbti.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//mbti-->
+{% endif %}
