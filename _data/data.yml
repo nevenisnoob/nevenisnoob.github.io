@@ -4,262 +4,219 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: 黄 亮錦 (コウ リョウキン)
+    tagline: Full Stack Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: nevenisnoob@gmail.com
+    citizenship: 中国
+    timezone: 横浜・日本
 
     languages:
       title: Languages
       info:
-        - idiom: English
-          level: Native
+        - idiom: 日本語
+          level: 上級
 
-        - idiom: French
-          level: Professional
+        - idiom: 英語
+          level: 中級
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: 中国語
+          level: ネイティブ
 
-    interests:
-      title: Interests
+    strength-finder:
+      title: Strength Finder
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+        - item: 回復志向
+          link: https://www.gallup.com/cliftonstrengths/ja/253469/%E5%9B%9E%E5%BE%A9%E5%BF%97%E5%90%91-%E8%B3%87%E8%B3%AA.aspx
+        - item: 調和性
+          link: https://www.gallup.com/cliftonstrengths/ja/253436/%E8%AA%BF%E5%92%8C%E6%80%A7-%E8%B3%87%E8%B3%AA.aspx
+        - item: 慎重さ
+          link: https://www.gallup.com/cliftonstrengths/ja/253421/%E6%85%8E%E9%87%8D%E3%81%95-%E8%B3%87%E8%B3%AA.aspx
+        - item: 適応性
+          link: https://www.gallup.com/cliftonstrengths/ja/253391/%E9%81%A9%E5%BF%9C%E6%80%A7-%E8%B3%87%E8%B3%AA.aspx
+        - item: 共感性
+          link: https://www.gallup.com/cliftonstrengths/ja/253058/%E5%85%B1%E6%84%9F%E6%80%A7-%E8%B3%87%E8%B3%AA.aspx
+    
+    mbti:
+      title: MBTI
+      info:
+        - item: ISFJ-T(I:99% )
+          link: https://www.16personalities.com/ja/isfj%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC
 
 career-profile:
-    title: Career Profile
+    title: TL;DR
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Full Stack Engineerに目指して奮闘中。
+      
+      Tech Stack(2024.3):
+        - Client: 
+          - **Android&iOSアプリ・SDKの開発全般**(Java, Kotlin, Objective-C, Swift, Dart, Flutter)
+          - C#(Unity)
+          - C++(Windows&macOS向けアプリ・SDK開発)
+        - Server/Cloud:
+          - **GCP**: Google Cloud Professional Cloud Architect
+          - **Ruby**
+          - Terraform
+      
+      強み:
+        - アプリの Architecture 設計
+        - API 設計
+        - アプリ内課金(IAB/IAP)
+        - Workflow整理
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: 社会情報学専攻 修士卒業
+        university: 京都大学 情報学研究科
+        time: 2011 - 2013
+      - degree: デジタルメディア分野 学士卒業
+        university: 中山大学(中国) ソフトウェア工学学部
+        time: 2006 - 2010
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Chief Software Engineer
+        time: 2016.06 - 現在(2024.03.31退職予定)
+        company: 株式会社ディー・エヌ・エー
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          **Client Engineer** として入社。最初は主に **Windows, macOS向けのアプリやSDKの開発** に関わっていました。    
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          その後 **Mobile Platform向けのアプリやSDKの開発・メンテ** に関わっていました。    
+          2019年度ブラウザアプリーー **SkyLeap** の開発に関わっており、**社長賞(チーム賞)**を受賞。    
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          近年Cloud Serviceに興味があり、**Google Cloud PCA認定資格** を取り、クロスジョブで **Server Engineer** として部署の 
+          **GCP Projectsの管理(GCP Projectsの監視仕組みの導入)・運用改善(IaC化)・コスト削減(FinOps)** などに関わっていまして、あるProjectの **運用コストを60%削減** することができました。
+
+          開発言語: **Objective-C, Java, Kotlin, Swift, C#(Unity), C++, Terraform, Ruby, Dart, JavaScript**    
+      - role: Software Engineer
+        time: 2015.02 - 2016.04
+        company: 株式会社ドリコム
+        details: |
+          **Client Engineer** として入社。主に **Mobile Platform向けのGame SDKや、広告SDKの開発** に関わっていました。
+
+          R&D関連の仕事も関わっており、**新規技術の検証** を楽しくやらせていただきました。    
+          エピソードとして、**一ヶ月でElixirを勉強し広告ミニゲーム(DreeVee CMじゃんけん)を作ってリリース**することができ、
+          2015年十月にテクノロジー本部の **「最近のすごいやつ」** に選ばれました。
+
+          開発言語: **C#(Unity), C++(cocoa-2dx), Java, Objective-C, JavaScript, Elixir**
+      - role: Software Engineer
+        time: 2014.4 - 2014.12
+        company: 株式会社日進
+        details: |
+          シンガポールでの進学を諦め、就職することに決めまして、就職先は日本のみを考えていました。
+          しかし就職タイミングを逃してしまい、再び来日のために中国の人材派遣会社へ入社することに。    
+          主に **Androidアプリの開発** に関わっていました。
+
+          開発言語: **Java**
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Mobage (Android&iOS)
+        link: "https://play.google.com/store/apps/details?id=jp.mbga.portal.lite"
+        time: "2022.10~現在"
+        tagline: "スマホで遊べるゲームポータル「Mobage(モバゲー)」の公式アプリ"
+        content: "外部環境変化への対応(新OS対応、Google/Appleのポリシー変更対応など)が主務ですが、
+        近年はレガシーコードによるメンテナンスコストの増大が問題となっており、それを解決するため、
+        Mobageアプリを作り直すことにしました。<strong>三人体制のグループで、技術に関する全般的な業務(技術の検証・選定、
+        ビジネスロジックの洗い出し、アーキテクチャの設計、実装、テスト）をリードしていました。</strong>"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Mobage SDKs(Android&iOS)
+        link: "https://play.google.com/store/apps/details?id=jp.mbga.portal.lite"
+        time: "2018.07~現在"
+        tagline: "Third-Partyゲーム向けに、Mobage Open Platformが提供する会員管理、課金、通知、
+        ソーシャル機能などのサービスを利用するためのSDK群です。<br/>
+        種類はNativeアプリ向けのNativeSDK、Unity向けのUnitySDK、そしてWebViewベースのShellAppFrameworkがあります。<br/>
+        多くのゲーム(グラブル, FFRK, パズあになど)で利用されています。"
+        content: "<strong>新規機能開発(要求分析・システム設計・実装・テスト・リリースまで)</strong>、
+        外部環境変化に伴う調査&対応、パートナーサポートなど。"
+      
+      - title: SkyLeap(iOS)
+        link: "https://apps.apple.com/jp/app/skyleap/id1470217541"
+        time: "2019.04~2020.04"
+        tagline: "グラブルの推奨ブラウザアプリ"
+        content: "<strong>スクラム</strong>で開発を行っています。主務は<strong>新規機能の開発、ユーザ問い合わせ対応など</strong>。
+        <strong>ユーザにDelightを届けること</strong>を使命とし、自分らはゲームユーザになりきって、アプリの改善点を見つけ出し、
+        さらにエゴサーチなどを通じてユーザの意見を収集し、刺激を受けながら、アプリの改善を行うことはいい経験でした。"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: AndApp(Windows&macOS)
+        link: "https://www.andapp.jp/"
+        time: "2016.06~2018.06"
+        tagline: "スマホゲームをPCで遊ぶことができるプラットフォーム。EndUserにはGame Platformを提供しており、
+        パートナー様にはAndApp会員管理、課金、通知などの機能を利用できるSDKを提供。"
+        content: "主務はAndAppバックエンドServiceの開発、ゲーム向けのAndApp SDK(C++&Unity)の開発。<br/>
+        <strong>大型システムにおいて、よいArchitectureの設計がもたらすメリット</strong>を強く実感しました。<br/>
+        <strong>API設計において、使いやすさ、拡張性、Robustness</strong>の大事さも強く実感しました。"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: DreeVee 動画広告配信SDK(Android)
+        link: "https://drecom.co.jp/news/2016/07/20160729.php"
+        time: "2015.04~2015.08"
+        tagline: "当時ドリコムが提供している「poncan ビデオアド」からリニューアルした、動画広告ネットワークサービス。"
+        content: "動画広告配信SDKのAndroid版の開発を担当していました。REST APIから動画URLを取得し、それを再生し
+        最後リワード画面に遷移するという機能を実装しまして、MediaPlayer API関連を頑張ってました。
+        読み込み速度改善するために、通信量を気にしつづ、動画コンテンツの先読みに工夫をしました。"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Docomo電話帳 (Android)
+        link: "https://www.docomo.ne.jp/service/phonebook_cloud/"
+        time: "2014.10~2014.12"
+        tagline: "ドコモが提供している連絡先を管理するアプリ"
+        content: "Android5のリリースに伴うUIのリニューアル対応(Material Design)と、パフォーマンス改善を主にやってました。"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: AU Wallet (Android)
+        link: "https://aupay.auone.jp/"
+        time: "2014.06~2014.09"
+        tagline: "現AU Payアプリの前身となるアプリ、現在だいぶ進化しましたが、当時の機能は主にポイントの残高管理でした。"
+        content: "主務はUIの動画作りでした。生き生きとしたUI動画は、User Engagementに繋がることを学びました。"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Android(Java, Kotlin)
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: iOS(Objective-C, Swift)
+        level: 80%
+
+      - name: GCP
+        level: 80%
+
+      - name: Ruby
+        level: 70%
+
+      - name: Terraform
+        level: 70%
+
+      - name: C#(Unity)
+        level: 65%
+
+      - name: C++
         level: 60%
+
+      - name: Flutter(Dart)
+        level: 50%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+certifications:
+      title: Certifications
+      list:
+        - name: Google Cloud Professional Cloud Architect
+          start: 2022
+          credentialid: SeriesID:62331
+          credentialurl: cloud.google.com/learn/certification/cloud-architect
+          credentialname: Google
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
