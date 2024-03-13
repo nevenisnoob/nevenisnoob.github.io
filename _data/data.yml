@@ -157,7 +157,7 @@ projects:
         種類はNativeアプリ向けのNativeSDK、Unity向けのUnitySDK、そしてWebViewベースのShellAppFrameworkがあります。<br/>
         多くのゲーム(グラブル, FFRK, パズあになど)で利用されています。"
         content: "<strong>新規機能開発(要求分析・システム設計・実装・テスト・リリースまで)</strong>、
-        外部環境変化に伴う調査&対応、パートナーサポートなど。"
+        外部環境変化に伴う調査&対応、パートナーサポートなどが主務。<strong>アプリ内課金に自信あり。</strong>"
       
       - title: SkyLeap(iOS)
         link: "https://apps.apple.com/jp/app/skyleap/id1470217541"
