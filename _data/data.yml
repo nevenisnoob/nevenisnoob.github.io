@@ -24,7 +24,7 @@ sidebar:
           level: 上級
 
         - idiom: 英語
-          level: 中級
+          level: 中級(TOEFL:89/TOEIC:865)
 
         - idiom: 中国語
           level: ネイティブ
@@ -119,7 +119,7 @@ experiences:
 
           開発言語: **C#(Unity), C++(cocoa-2dx), Java, Objective-C, JavaScript, Elixir**
       - role: Software Engineer
-        time: 2014.4 - 2014.12
+        time: 2014.6 - 2014.12
         company: 株式会社日進
         details: |
           シンガポールでの進学を諦め、就職することに決めまして、就職先は日本のみを考えていました。
@@ -133,7 +133,7 @@ projects:
     assignments:
       - title: Mobage (Android&iOS)
         link: "https://play.google.com/store/apps/details?id=jp.mbga.portal.lite"
-        time: "2022.10~現在(DeNA)"
+        time: "2020.10~2024.03"
         tagline: "スマホで遊べるゲームポータル「Mobage(モバゲー)」の公式アプリ"
         content: "外部環境変化への対応(新OS対応、Google/Appleのポリシー変更対応など)が主務ですが、
         近年はレガシーコードによるメンテナンスコストの増大が問題となっており、それを解決するため、
@@ -141,7 +141,7 @@ projects:
         ビジネスロジックの洗い出し、アーキテクチャの設計、実装、テスト）をリードしていました。</strong>"
 
       - title: Mobage Open PlatformのBackendで使用されるGCP Projectsの管理
-        time: "2022.10~現在(DeNA)"
+        time: "2022.10~2024.03"
         tagline: "Mobage Open PlatformのBackendは、AWS, GCP, on-premisesなどがあります。
         GCPは主に分析基盤、課金サービス、モバフェスなどのサービスに使われています。"
         content: "<br/>IaCを推進し、環境間の一貫性を保証し、信頼性の高いインフラ構築を実現すること;<br/>
@@ -151,7 +151,7 @@ projects:
 
       - title: Mobage SDKs(Android&iOS)
         link: "https://play.google.com/store/apps/details?id=jp.mbga.portal.lite"
-        time: "2018.07~現在(DeNA)"
+        time: "2018.07~2024.03"
         tagline: "Third-Partyゲーム向けに、Mobage Open Platformが提供する会員管理、課金、通知、
         ソーシャル機能などのサービスを利用するためのSDK群です。<br/>
         種類はNativeアプリ向けのNativeSDK、Unity向けのUnitySDK、そしてWebViewベースのShellAppFrameworkがあります。<br/>
@@ -176,6 +176,17 @@ projects:
         <strong>大型システムにおいて、よいArchitectureの設計がもたらすメリット</strong>を強く実感しました。<br/>
         <strong>API設計において、使いやすさ、拡張性、Robustness</strong>の大事さも強く実感しました。"
 
+      - title: 社内スマホゲーム Developer向けのSDKの開発
+        time: "2015.08~2016.04(Drecom)"
+        content: "主務はスマホのNative機能(Bluetooth, Camera, WebView, 位置情報, etc)をカプセル化し、
+        cocos2d-xで簡単に利用できるC++ SDKの開発。"
+
+      - title: 英単語学習 えいぽんたん!アプリ
+        time: "2015.09~2016.10(Drecom)"
+        tagline: "第11回日本eラーニングアワードにて 日本e-Learning 大賞を受賞したアプリですが、
+        現在すでにサービス終了。"
+        content: "主に新しいコンテンツの追加対応や、JavaScriptに関わるバグの調査と修正対応を担当した。"
+
       - title: DreeVee 動画広告配信SDK(Android)
         link: "https://drecom.co.jp/news/2016/07/20160729.php"
         time: "2015.04~2015.08(Drecom)"
@@ -184,7 +195,6 @@ projects:
         最後リワード画面に遷移するという機能を実装しまして、MediaPlayer API関連を頑張ってました。
         読み込み速度改善するために、通信量を気にしつづ、動画コンテンツの先読みに工夫をしました。"
       
-      - title: 
 
       - title: Docomo電話帳 (Android)
         link: "https://www.docomo.ne.jp/service/phonebook_cloud/"
